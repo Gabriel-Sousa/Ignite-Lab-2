@@ -7,6 +7,7 @@ export function Router() {
     <Routes>
       <Route path="/" element={<Subscribe />} />
       <Route path="/event" element={<Event />} />
+      <Route path="/teste" element={<h1>adadadad</h1>} />
       <Route path="/event/lesson/:slug_url" element={<Event />} />
     </Routes>
   );
